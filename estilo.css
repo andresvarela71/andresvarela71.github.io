@@ -40,6 +40,8 @@ body {
 }
 
 #fotoperfil:hover {
+    transition-property: width height;
+    transition-duration: 5s;
     width: 275px;
     height: 275px;
 }
